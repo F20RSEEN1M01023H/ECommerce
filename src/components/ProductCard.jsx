@@ -53,7 +53,7 @@ export default function ProductCard({ product }) {
         </h3>
 
         <div className="flex items-center justify-between mb-3">
-          <span className="text-2xl font-bold text-blue-600">
+          <span className="text-2xl font-bold text-slate-600">
             ${product.price}
           </span>
           <span className="text-sm text-gray-500">
@@ -69,8 +69,8 @@ export default function ProductCard({ product }) {
             product.stock === 0
               ? "bg-gray-300 text-gray-500 cursor-not-allowed"
               : showAdded
-              ? "bg-green-500 text-white"
-              : "bg-blue-500 text-white hover:bg-blue-600"
+              ? "bg-yellow-500 text-white"
+              : "bg-slate-800 text-white hover:bg-slate-900"
           }`}
         >
           {showAdded

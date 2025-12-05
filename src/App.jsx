@@ -32,7 +32,7 @@ export default function App() {
         setSearchQuery={(query) => dispatch(setSearchQuery(query))}
       />
 
-      <div className="max-w-7xl mx-auto p-6">
+      <div className="max-w-10xl mx-auto p-6">
         <CategoryFilter
           selected={selectedCategory}
           onChange={(category) => dispatch(setCategory(category))}

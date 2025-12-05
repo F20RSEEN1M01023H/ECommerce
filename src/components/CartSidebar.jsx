@@ -10,7 +10,7 @@ export default function CartSidebar() {
 
   return (
     <div className="fixed inset-0 bg-black bg-opacity-50 z-50 flex justify-end">
-      <div className="bg-white w-full max-w-md h-full overflow-y-auto p-6">
+      <div className="bg-white w-full max-w-2xl h-full overflow-y-auto p-6">
         {/* Header */}
         <div className="flex justify-between items-center mb-6">
           <h2 className="text-2xl font-bold">Shopping Cart</h2>
@@ -59,7 +59,7 @@ export default function CartSidebar() {
               </div>
 
               {/* Checkout Button */}
-              <button className="w-full bg-gradient-to-r from-blue-500 to-purple-500 text-white py-3 rounded-lg font-bold text-lg hover:shadow-lg transition mt-4">
+              <button className="w-full bg-linear-to-r from-slate-900 to-gray-500 text-white py-3 rounded-lg font-bold text-lg hover:shadow-lg transition mt-4">
                 Proceed to Checkout 🚀
               </button>
             </div>

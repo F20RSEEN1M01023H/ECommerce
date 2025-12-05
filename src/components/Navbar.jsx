@@ -6,8 +6,8 @@ export default function Navbar({
   setSearchQuery,
 }) {
   return (
-    <div className="bg-gradient-to-r from-slate-900 via-gray-500 to-slate-900 text-white p-4 shadow-lg sticky top-0 z-50">
-      <div className="max-w-7xl mx-auto flex items-center justify-between gap-4 flex-wrap">
+    <div className="bg-linear-to-r from-slate-900 via-gray-500 to-slate-900 text-white p-4 shadow-lg sticky top-0 z-50">
+      <div className="max-w-10xl mx-auto flex items-center justify-between gap-4 flex-wrap">
         <div className="text-2xl font-bold">🛒 ShopCart</div>
 
         <input

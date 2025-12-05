@@ -15,8 +15,8 @@ export default function CategoryFilter({ selected, onChange }) {
             onClick={() => onChange(cat.id)}
             className={`px-6 py-3 rounded-lg font-semibold whitespace-nowrap transition ${
               selected === cat.id
-                ? "bg-blue-500 text-white shadow-lg"
-                : "bg-gray-100 text-gray-700 hover:bg-gray-200"
+                ? "bg-slate-800 text-white shadow-lg"
+                : "bg-gray-200 text-gray-700 hover:bg-gray-200"
             }`}
           >
             {cat.icon} {cat.name}
