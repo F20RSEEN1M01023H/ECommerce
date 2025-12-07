@@ -41,7 +41,7 @@ export default function ProductCard({ product }) {
         </button>
 
         {/* Rating Badge */}
-        <div className="absolute top-3 left-3 bg-yellow-400 text-yellow-900 px-2 py-1 rounded-md text-sm font-bold">
+        <div className="absolute top-3 left-3 bg-yellow-500 text-yellow-900 px-2 py-1 rounded-md text-sm font-bold">
           ⭐ {product.rating}
         </div>
       </div>
